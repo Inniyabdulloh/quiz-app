@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+<style>
+        .card {
+            width: 250px;
+            height: 140px;
+            border: 2px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #3fa6b6 !important;
+        }
+
+        .card .plus-sign {
+            font-size: 50px;
+            color: #333;
+
+        }
+    </style>
+{% endblock %}
+{% block content %}
+    <div class="container text-center mt-3">
+      <div class="row">
+          <div class="col-6"><div class="card">
+                <a href="{% url 'quiz:create-quiz' %}" class=" btn plus-sign">+</a>
+            </div>
+          </div>
+{#        <div class="col-6">.col-6</div>#}
+      </div>
+    </div>
+{% endblock %}

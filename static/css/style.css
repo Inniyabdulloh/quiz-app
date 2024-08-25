@@ -1,0 +1,25 @@
+.my-menu {
+    width: auto;
+    height: 108px;
+    border-radius: 5cqb;
+}
+
+.table-div {
+    border-radius: 5cqb; !important;
+}
+
+.bookings {
+    background-color: #22c55E;
+}
+
+.aviable-rooms {
+    background-color: #3B82F6;
+}
+
+.guests {
+    background-color: #EAB308;
+}
+
+.reviews {
+    background-color: #A855F7;
+}
